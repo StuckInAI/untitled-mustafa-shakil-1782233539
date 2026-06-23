@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-choc-dark: #2c1a0e;
+  --color-choc-mid: #4a2c17;
+  --color-choc-light: #7b4a2d;
+  --color-choc-cream: #fdf6ee;
+  --color-choc-ivory: #f5e6d3;
+  --color-gold: #c9973a;
+  --color-gold-light: #e8b96a;
+  --font-family-serif: 'Georgia', 'Times New Roman', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-choc-cream);
+  color: var(--color-choc-dark);
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
